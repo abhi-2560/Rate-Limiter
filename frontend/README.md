@@ -17,9 +17,9 @@ The frontend is built using **Vanilla HTML5, Vanilla CSS3, and ES6 JavaScript** 
 ### Option 1: Python Built-in HTTP Server
 From the project root:
 ```bash
-python3 -m http.server 3000 --directory frontend
+python3 -m http.server 3050 --directory frontend
 ```
-Then visit `http://localhost:3000` in your browser.
+Then visit `http://localhost:3050` in your browser.
 
 ### Option 2: Live Server / VS Code / Cursor
 Right-click `frontend/index.html` and select **Open with Live Server**.

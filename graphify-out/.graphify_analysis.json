@@ -1,0 +1,441 @@
+{
+  "communities": {
+    "0": [
+      "asyncclient",
+      "backend_app_main",
+      "backend_app_main_health_check",
+      "backend_app_main_info",
+      "backend_app_main_lifespan",
+      "backend_app_main_public_endpoint",
+      "backend_app_main_py_request",
+      "backend_app_main_rationale_117",
+      "backend_app_main_rationale_142",
+      "backend_app_main_rationale_162",
+      "backend_app_main_rationale_182",
+      "backend_app_main_rationale_99",
+      "backend_app_main_sliding_endpoint",
+      "backend_app_main_tiered_endpoint",
+      "backend_benchmarks_benchmark",
+      "backend_benchmarks_benchmark_run_benchmark",
+      "backend_benchmarks_benchmark_run_benchmark_worker",
+      "backend_benchmarks_benchmark_send_request",
+      "backend_rate_limiter_exceptions",
+      "backend_rate_limiter_init",
+      "backend_rate_limiter_init_rationale_1",
+      "backend_rate_limiter_middleware_dependency",
+      "backend_rate_limiter_middleware_init",
+      "backend_rate_limiter_middleware_middleware",
+      "backend_rate_limiter_models",
+      "backend_rate_limiter_models_clienttier",
+      "backend_rate_limiter_rules_init",
+      "backend_rate_limiter_rules_resolver",
+      "backend_rate_limiter_rules_resolver_get_api_key",
+      "backend_rate_limiter_rules_resolver_get_client_ip",
+      "backend_rate_limiter_rules_resolver_py_request",
+      "backend_rate_limiter_rules_resolver_rationale_23",
+      "backend_rate_limiter_rules_resolver_rationale_43",
+      "backend_rate_limiter_rules_resolver_rationale_56",
+      "backend_rate_limiter_rules_resolver_resolve_client_tier",
+      "contextlib",
+      "enum",
+      "fastapi",
+      "fastapi_middleware_cors",
+      "get",
+      "json",
+      "os",
+      "pydantic",
+      "starlette_middleware_base",
+      "starlette_responses",
+      "statistics",
+      "str",
+      "sys",
+      "typing"
+    ],
+    "1": [
+      "backend_app_main_create_components",
+      "backend_rate_limiter_algorithms_base",
+      "backend_rate_limiter_algorithms_base_basealgorithm",
+      "backend_rate_limiter_algorithms_base_basealgorithm_allow",
+      "backend_rate_limiter_algorithms_base_basealgorithm_name",
+      "backend_rate_limiter_algorithms_base_py_abc",
+      "backend_rate_limiter_algorithms_base_rationale_15",
+      "backend_rate_limiter_algorithms_base_rationale_25",
+      "backend_rate_limiter_algorithms_base_rationale_7",
+      "backend_rate_limiter_algorithms_init",
+      "backend_rate_limiter_algorithms_sliding_window",
+      "backend_rate_limiter_algorithms_sliding_window_rationale_6",
+      "backend_rate_limiter_algorithms_sliding_window_slidingwindowcounteralgorithm",
+      "backend_rate_limiter_algorithms_sliding_window_slidingwindowcounteralgorithm_allow",
+      "backend_rate_limiter_algorithms_sliding_window_slidingwindowcounteralgorithm_name",
+      "backend_rate_limiter_algorithms_token_bucket",
+      "backend_rate_limiter_algorithms_token_bucket_rationale_6",
+      "backend_rate_limiter_algorithms_token_bucket_tokenbucketalgorithm",
+      "backend_rate_limiter_algorithms_token_bucket_tokenbucketalgorithm_allow",
+      "backend_rate_limiter_algorithms_token_bucket_tokenbucketalgorithm_name",
+      "backend_rate_limiter_models_py_basemodel",
+      "backend_rate_limiter_models_ratelimitrule",
+      "backend_rate_limiter_models_ratelimitrule_refill_rate_per_second",
+      "backend_rate_limiter_models_rationale_15",
+      "backend_rate_limiter_models_rationale_22",
+      "backend_tests_test_concurrency",
+      "backend_tests_test_concurrency_py_asyncio",
+      "backend_tests_test_concurrency_rationale_14",
+      "backend_tests_test_concurrency_rationale_45",
+      "backend_tests_test_concurrency_test_high_concurrency_sliding_window",
+      "backend_tests_test_concurrency_test_high_concurrency_token_bucket",
+      "backend_tests_test_sliding_window",
+      "backend_tests_test_sliding_window_py_asyncio",
+      "backend_tests_test_sliding_window_test_sliding_window_basic_capacity",
+      "backend_tests_test_sliding_window_test_sliding_window_expiration",
+      "backend_tests_test_token_bucket",
+      "backend_tests_test_token_bucket_py_asyncio",
+      "backend_tests_test_token_bucket_test_token_bucket_burst_exhaustion",
+      "backend_tests_test_token_bucket_test_token_bucket_initial_capacity",
+      "backend_tests_test_token_bucket_test_token_bucket_refill",
+      "backend_tests_test_token_bucket_test_token_bucket_variable_cost",
+      "parametrize",
+      "pytest"
+    ],
+    "2": [
+      "docref_rfc_6585",
+      "frontend_js_api",
+      "frontend_js_api_apiclient",
+      "frontend_js_api_apiclient_checkhealth",
+      "frontend_js_api_apiclient_constructor",
+      "frontend_js_api_apiclient_resetdemostate",
+      "frontend_js_api_apiclient_sendrequest",
+      "frontend_js_app",
+      "frontend_js_visualizers_sliding_window",
+      "frontend_js_visualizers_sliding_window_slidingwindowvisualizer",
+      "frontend_js_visualizers_sliding_window_slidingwindowvisualizer_constructor",
+      "frontend_js_visualizers_sliding_window_slidingwindowvisualizer_recordrejection",
+      "frontend_js_visualizers_sliding_window_slidingwindowvisualizer_recordrequest",
+      "frontend_js_visualizers_sliding_window_slidingwindowvisualizer_reset",
+      "frontend_js_visualizers_sliding_window_slidingwindowvisualizer_startanimationloop",
+      "frontend_js_visualizers_sliding_window_slidingwindowvisualizer_tick",
+      "frontend_js_visualizers_sliding_window_slidingwindowvisualizer_updatestats",
+      "frontend_js_visualizers_token_bucket",
+      "frontend_js_visualizers_token_bucket_tokenbucketvisualizer",
+      "frontend_js_visualizers_token_bucket_tokenbucketvisualizer_clearlock",
+      "frontend_js_visualizers_token_bucket_tokenbucketvisualizer_constructor",
+      "frontend_js_visualizers_token_bucket_tokenbucketvisualizer_render",
+      "frontend_js_visualizers_token_bucket_tokenbucketvisualizer_reset",
+      "frontend_js_visualizers_token_bucket_tokenbucketvisualizer_startrefillticker",
+      "frontend_js_visualizers_token_bucket_tokenbucketvisualizer_triggerlock",
+      "frontend_js_visualizers_token_bucket_tokenbucketvisualizer_updatefromresponse"
+    ],
+    "3": [
+      "asyncio",
+      "backend_rate_limiter_algorithms_base_basealgorithm_init",
+      "backend_rate_limiter_storage_base",
+      "backend_rate_limiter_storage_base_basestorage",
+      "backend_rate_limiter_storage_base_basestorage_check_and_record_sliding_window",
+      "backend_rate_limiter_storage_base_basestorage_close",
+      "backend_rate_limiter_storage_base_basestorage_reset",
+      "backend_rate_limiter_storage_base_py_abc",
+      "backend_rate_limiter_storage_base_rationale_28",
+      "backend_rate_limiter_storage_base_rationale_33",
+      "backend_rate_limiter_storage_base_rationale_38",
+      "backend_rate_limiter_storage_base_rationale_6",
+      "backend_rate_limiter_storage_init",
+      "backend_rate_limiter_storage_lua_scripts",
+      "backend_rate_limiter_storage_lua_scripts_rationale_1",
+      "backend_rate_limiter_storage_memory",
+      "backend_rate_limiter_storage_redis",
+      "collections",
+      "dataclasses",
+      "logging",
+      "redis_asyncio",
+      "redis_exceptions",
+      "time",
+      "uuid"
+    ],
+    "4": [
+      "backend_rate_limiter_storage_memory_inmemorystorage",
+      "backend_rate_limiter_storage_memory_inmemorystorage_check_and_consume_token_bucket",
+      "backend_rate_limiter_storage_memory_inmemorystorage_check_and_record_sliding_window",
+      "backend_rate_limiter_storage_memory_inmemorystorage_close",
+      "backend_rate_limiter_storage_memory_inmemorystorage_ensure_cleanup_task",
+      "backend_rate_limiter_storage_memory_inmemorystorage_evict_expired",
+      "backend_rate_limiter_storage_memory_inmemorystorage_eviction_worker",
+      "backend_rate_limiter_storage_memory_inmemorystorage_get_lock",
+      "backend_rate_limiter_storage_memory_inmemorystorage_init",
+      "backend_rate_limiter_storage_memory_inmemorystorage_reset",
+      "backend_rate_limiter_storage_memory_rationale_26",
+      "backend_rate_limiter_storage_memory_slidingwindowstate",
+      "backend_rate_limiter_storage_memory_tokenbucketstate",
+      "backend_tests_conftest",
+      "backend_tests_conftest_any_storage",
+      "backend_tests_conftest_fake_redis_storage",
+      "backend_tests_conftest_memory_storage",
+      "backend_tests_conftest_rationale_28",
+      "backend_tests_conftest_sliding_window_algo",
+      "backend_tests_conftest_token_bucket_algo",
+      "fakeredis_aioredis",
+      "fixture",
+      "lock",
+      "pytest_asyncio"
+    ],
+    "5": [
+      "frontend_js_app_app",
+      "frontend_js_app_app_bindevents",
+      "frontend_js_app_app_cleartelemetrylogs",
+      "frontend_js_app_app_constructor",
+      "frontend_js_app_app_getbackendurl",
+      "frontend_js_app_app_handlelogin",
+      "frontend_js_app_app_handleresetdemo",
+      "frontend_js_app_app_handleslidingwindowburst",
+      "frontend_js_app_app_handleslidingwindowrequest",
+      "frontend_js_app_app_handletieredrequest",
+      "frontend_js_app_app_handletierselect",
+      "frontend_js_app_app_handletokenbucketburst",
+      "frontend_js_app_app_handletokenbucketrequest",
+      "frontend_js_app_app_initdomelements",
+      "frontend_js_app_app_logtelemetry",
+      "frontend_js_app_app_renderauthpips",
+      "frontend_js_app_app_rendertelemetrylogs",
+      "frontend_js_app_app_resetauthstate",
+      "frontend_js_app_app_starthealthpolling",
+      "frontend_js_app_app_triggerauthlockout",
+      "frontend_js_app_app_updatetierdisplay"
+    ],
+    "6": [
+      "backend_rate_limiter_storage_redis_rationale_15",
+      "backend_rate_limiter_storage_redis_redisstorage",
+      "backend_rate_limiter_storage_redis_redisstorage_check_and_consume_token_bucket",
+      "backend_rate_limiter_storage_redis_redisstorage_check_and_record_sliding_window",
+      "backend_rate_limiter_storage_redis_redisstorage_close",
+      "backend_rate_limiter_storage_redis_redisstorage_init",
+      "backend_rate_limiter_storage_redis_redisstorage_init_scripts",
+      "backend_rate_limiter_storage_redis_redisstorage_make_key",
+      "backend_rate_limiter_storage_redis_redisstorage_reset",
+      "backend_tests_test_integration",
+      "backend_tests_test_integration_py_asyncio",
+      "backend_tests_test_integration_rationale_59",
+      "backend_tests_test_integration_test_health_check_exempt",
+      "backend_tests_test_integration_test_public_endpoint_rate_limiting_and_headers",
+      "backend_tests_test_integration_test_redis_fail_open",
+      "backend_tests_test_integration_test_tiered_endpoint",
+      "httpx",
+      "redis",
+      "unittest_mock"
+    ],
+    "7": [
+      "backend_rate_limiter_exceptions_ratelimitexceeded",
+      "backend_rate_limiter_exceptions_ratelimitexceeded_init",
+      "backend_rate_limiter_exceptions_rationale_7",
+      "backend_rate_limiter_middleware_dependency_py_request",
+      "backend_rate_limiter_middleware_dependency_py_response",
+      "backend_rate_limiter_middleware_dependency_ratelimiterdependency",
+      "backend_rate_limiter_middleware_dependency_ratelimiterdependency_call",
+      "backend_rate_limiter_middleware_dependency_ratelimiterdependency_init",
+      "backend_rate_limiter_middleware_dependency_ratelimiterdependency_resolve_key",
+      "backend_rate_limiter_middleware_dependency_ratelimiterdependency_resolve_rule",
+      "backend_rate_limiter_middleware_dependency_rationale_10",
+      "backend_rate_limiter_models_ratelimitresult",
+      "backend_rate_limiter_models_ratelimitresult_retry_after_int",
+      "backend_rate_limiter_models_rationale_28",
+      "backend_rate_limiter_models_rationale_37",
+      "backend_rate_limiter_storage_base_basestorage_check_and_consume_token_bucket",
+      "backend_rate_limiter_storage_base_rationale_17",
+      "httpexception"
+    ],
+    "8": [
+      "backend_rate_limiter_middleware_middleware_py_request",
+      "backend_rate_limiter_middleware_middleware_py_response",
+      "backend_rate_limiter_middleware_middleware_ratelimitmiddleware",
+      "backend_rate_limiter_middleware_middleware_ratelimitmiddleware_dispatch",
+      "backend_rate_limiter_middleware_middleware_ratelimitmiddleware_init",
+      "backend_rate_limiter_middleware_middleware_ratelimitmiddleware_is_exempt",
+      "backend_rate_limiter_middleware_middleware_rationale_12",
+      "basehttpmiddleware",
+      "requestresponseendpoint"
+    ],
+    "9": [
+      "backend_app_main_login_endpoint",
+      "backend_app_main_loginrequest",
+      "backend_app_main_py_basemodel",
+      "backend_app_main_rationale_109",
+      "backend_app_main_rationale_211",
+      "backend_app_main_reset_demo_state",
+      "post"
+    ],
+    "10": [
+      "backend_app_init",
+      "backend_app_init_rationale_1"
+    ],
+    "11": [
+      "backend_benchmarks_init",
+      "backend_benchmarks_init_rationale_1"
+    ],
+    "12": [
+      "backend_tests_init",
+      "backend_tests_init_rationale_1"
+    ],
+    "13": [
+      "pkg_fastapi_rate_limiter"
+    ]
+  },
+  "cohesion": {
+    "0": 0.08333333333333333,
+    "1": 0.10631229235880399,
+    "2": 0.12923076923076923,
+    "3": 0.10869565217391304,
+    "4": 0.12318840579710146,
+    "5": 0.24285714285714285,
+    "6": 0.15204678362573099,
+    "7": 0.16993464052287582,
+    "8": 0.25,
+    "9": 0.2857142857142857,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0
+  },
+  "gods": [
+    {
+      "id": "backend_rate_limiter_models_ratelimitresult",
+      "label": "RateLimitResult",
+      "degree": 36
+    },
+    {
+      "id": "backend_rate_limiter_models_ratelimitrule",
+      "label": "RateLimitRule",
+      "degree": 35
+    },
+    {
+      "id": "backend_rate_limiter_storage_memory_inmemorystorage",
+      "label": "InMemoryStorage",
+      "degree": 22
+    },
+    {
+      "id": "backend_rate_limiter_storage_redis_redisstorage",
+      "label": "RedisStorage",
+      "degree": 22
+    },
+    {
+      "id": "frontend_js_app_app",
+      "label": "App",
+      "degree": 21
+    },
+    {
+      "id": "backend_rate_limiter_algorithms_base_basealgorithm",
+      "label": "BaseAlgorithm",
+      "degree": 20
+    },
+    {
+      "id": "backend_rate_limiter_algorithms_token_bucket_tokenbucketalgorithm",
+      "label": "TokenBucketAlgorithm",
+      "degree": 20
+    },
+    {
+      "id": "backend_rate_limiter_algorithms_sliding_window_slidingwindowcounteralgorithm",
+      "label": "SlidingWindowCounterAlgorithm",
+      "degree": 18
+    },
+    {
+      "id": "backend_rate_limiter_storage_base_basestorage",
+      "label": "BaseStorage",
+      "degree": 16
+    },
+    {
+      "id": "backend_rate_limiter_middleware_dependency_ratelimiterdependency",
+      "label": "RateLimiterDependency",
+      "degree": 13
+    }
+  ],
+  "surprises": [
+    {
+      "source": "BaseAlgorithm",
+      "target": "RateLimitResult",
+      "source_files": [
+        "backend/rate_limiter/algorithms/base.py",
+        "backend/rate_limiter/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "BaseAlgorithm",
+      "target": "BaseStorage",
+      "source_files": [
+        "backend/rate_limiter/algorithms/base.py",
+        "backend/rate_limiter/storage/base.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "RateLimiterDependency",
+      "target": "BaseAlgorithm",
+      "source_files": [
+        "backend/rate_limiter/middleware/dependency.py",
+        "backend/rate_limiter/algorithms/base.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "RateLimitMiddleware",
+      "target": "BaseAlgorithm",
+      "source_files": [
+        "backend/rate_limiter/middleware/middleware.py",
+        "backend/rate_limiter/algorithms/base.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "SlidingWindowCounterAlgorithm",
+      "target": "RateLimitResult",
+      "source_files": [
+        "backend/rate_limiter/algorithms/sliding_window.py",
+        "backend/rate_limiter/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `RateLimitResult` connect `RateLimitResult` to `main.py`, `RateLimitRule`, `redis.py`, `InMemoryStorage`, `RedisStorage`, `login_endpoint`?",
+      "why": "High betweenness centrality (0.130) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `RateLimitRule` connect `RateLimitRule` to `main.py`, `RateLimitMiddleware`, `RedisStorage`, `RateLimitResult`?",
+      "why": "High betweenness centrality (0.092) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `RedisStorage` connect `RedisStorage` to `main.py`, `RateLimitRule`, `redis.py`, `InMemoryStorage`, `RateLimitResult`?",
+      "why": "High betweenness centrality (0.071) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 12 inferred relationships involving `RateLimitResult` (e.g. with `login_endpoint()` and `public_endpoint()`) actually correct?",
+      "why": "`RateLimitResult` has 12 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 13 inferred relationships involving `RateLimitRule` (e.g. with `BaseAlgorithm` and `SlidingWindowCounterAlgorithm`) actually correct?",
+      "why": "`RateLimitRule` has 13 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 4 inferred relationships involving `InMemoryStorage` (e.g. with `RateLimitResult` and `memory_storage()`) actually correct?",
+      "why": "`InMemoryStorage` has 4 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 5 inferred relationships involving `RedisStorage` (e.g. with `RateLimitResult` and `fake_redis_storage()`) actually correct?",
+      "why": "`RedisStorage` has 5 INFERRED edges - model-reasoned connections that need verification."
+    }
+  ]
+}
